@@ -17,12 +17,17 @@ namespace SEDC.PizzaApp.Controllers
         [Route("OrdersController/Details/{id?}")]
         public IActionResult Details(int? id)
         {
-            if (id == 0)
+            List<Order> orders = StaticDb.Orders;
+            if (id == null)
+            {
+                return new EmptyResult();
+;            }
+            Order order = orders.FirstOrDefault(o => o.Id == id);
+            if (order == null)
             {
                 return new EmptyResult();
             }
-            List<Order> orders = StaticDb.Orders;
-            return View(orders);
+            return View(order);
         }
         [Route("OrdersController/JsonData")]
         public IActionResult JsonReturn()
