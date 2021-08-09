@@ -1,0 +1,7 @@
+﻿@model List<SEDC.PizzaApp.Models.Domain.Pizza>
+
+<h2>Here are our pizzas:</h2>
+@for (int i = 0; i < Model.Count(); i++)
+{
+    <p>@Model[i].Name - @Model[i].Price.ToString("c")</p>
+}
