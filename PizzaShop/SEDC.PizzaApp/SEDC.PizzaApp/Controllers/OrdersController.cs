@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SEDC.PizzaApp.Models.Domain;
+using SEDC.PizzaApp.Models.Mappers;
+using SEDC.PizzaApp.Models.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,24 +14,37 @@ namespace SEDC.PizzaApp.Controllers
         [Route("Orders")]
         public IActionResult Index()
         {
-            return View();
+            List<Order> ordersDb = StaticDb.Orders;
+            List<OrderListViewModel> orderListViewModels = ordersDb
+                .Select(x => OrderMapper.OrderToOrderListViewModel(x))
+                .ToList();
+            ViewData["Message"] = $"The number of orders is: {ordersDb.Count}";
+            ViewData["Title"] = "Order list";
+            ViewData["Date"] = DateTime.Now.ToShortDateString();
+
+            ViewData["FirstUser"] = StaticDb.Users.First();
+            return View(orderListViewModels);
         }
-        [Route("OrdersController/Details/{id?}")]
+        [Route("{controller}/Details/{id?}")]
         public IActionResult Details(int? id)
         {
             List<Order> orders = StaticDb.Orders;
             if (id == null)
             {
                 return new EmptyResult();
-;            }
-            Order order = orders.FirstOrDefault(o => o.Id == id);
-            if (order == null)
+            }
+            ViewBag.Message = "You are on the order details page";
+            ViewData["Title"] = "Details list";
+            ViewBag.User = StaticDb.Users.First();
+            Order orderDb = orders.FirstOrDefault(o => o.Id == id);
+            if (orderDb == null)
             {
                 return new EmptyResult();
             }
-            return View(order);
+            OrderDetailsViewModel orderDetailsViewModel = OrderMapper.OrderToOrderDetailsViewModel(orderDb);
+            return View(orderDetailsViewModel);
         }
-        [Route("OrdersController/JsonData")]
+        [Route("{controller}/JsonData")]
         public IActionResult JsonReturn()
         {
             return new JsonResult(StaticDb.Pizzas);

@@ -1,5 +1,6 @@
-﻿@model SEDC.PizzaApp.Models.Domain.Pizza
+﻿@model List<SEDC.PizzaApp.Models.Domain.Pizza>
 
-<h2>Details:</h2>
-<p>@Model.Name</p>
-<p>&nbsp;&nbsp;&nbsp;@Model.Price.ToString("c")</p>
+
+<p>@ViewBag.PizzaViewModel.PizzaName</p>
+<p>@ViewBag.PizzaViewModel.Price</p>
+<p>@ViewBag.PizzaViewModel.PizzaSize</p>

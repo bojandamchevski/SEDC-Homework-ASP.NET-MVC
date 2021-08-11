@@ -1,10 +1,14 @@
-﻿@model SEDC.PizzaApp.Models.Domain.Order
+﻿@using SEDC.PizzaApp.Models.ViewModels
+@model OrderDetailsViewModel
 
-<h1>Details:</h1>
-<p>Simple text...</p>
+<h2>Details:</h2>
 
-<li>Order number: @Model.Id</li>
 <ul>
-    <li>Name: @Model.Name</li>
-    <li>Description: @Model.Details</li>
+    <li>Name: @Model.PizzaName</li>
+    <li>User: @Model.UserFullName</li>
+    <li>Price: @Model.Price.ToString("c")</li>
+    <li>Payment method: @Model.PaymentMethod</li>
 </ul>
+
+<h4>@ViewBag.Message</h4>
+<h4>@ViewBag.User.FirstName</h4>

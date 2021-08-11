@@ -15,14 +15,34 @@ namespace SEDC.PizzaApp
                 Id = 1,
                 Name = "Capri",
                 Price = 350,
-                IsOnPromotion = true
+                IsOnPromotion = true,
+                PizzaSize = Models.Enums.PizzaSize.Normal,
+                HasExtras = true
             },
             new Pizza
             {
                 Id = 2,
                 Name = "Margarita",
                 Price = 380,
-                IsOnPromotion = false
+                IsOnPromotion = false,
+                PizzaSize = Models.Enums.PizzaSize.Family,
+                HasExtras = true
+            }
+        };
+
+        public static List<User> Users = new List<User>
+        {
+            new User
+            {
+                FirstName = "Bojan",
+                LastName = "Damcevski",
+                Address = "address1"
+            },
+            new User
+            {
+                FirstName = "Stefan",
+                LastName = "Trajkov",
+                Address = "address2"
             }
         };
 
@@ -31,20 +51,16 @@ namespace SEDC.PizzaApp
             new Order
             {
                 Id = 1,
-                Name = "Pizza",
-                Details = "Small capri"
+                Pizza = Pizzas.First(),
+                User = Users.First(),
+                PaymentMethod = Models.Enums.PaymentMethod.Card
             },
             new Order
             {
                 Id = 2,
-                Name = "Margarita",
-                Details = "Large margarita"
-            },
-            new Order
-            {
-                Id = 3,
-                Name = "Coke",
-                Details = "One small coke, one medium coke"
+                Pizza = Pizzas.Last(),
+                User = Users.Last(),
+                PaymentMethod = Models.Enums.PaymentMethod.Cash
             }
         };
     }
