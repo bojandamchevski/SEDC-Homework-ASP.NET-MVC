@@ -26,8 +26,22 @@ using SEDC.PizzaApp.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\PizzaShop\SEDC.PizzaApp\SEDC.PizzaApp\Views\_ViewImports.cshtml"
+using SEDC.PizzaApp.Models.ViewModels;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\PizzaShop\SEDC.PizzaApp\SEDC.PizzaApp\Views\_ViewImports.cshtml"
+using SEDC.PizzaApp.Models.Domain;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d8ddb6bffa5a9b264bf8f89038bf03c234083fd3", @"/Views/Home/Privacy.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b9da3483405b0ddc092d1e77dd5d8a02d663a044", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"72e92adf7f1c49aca918f15f844bb3fd8dc58c8a", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Privacy : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

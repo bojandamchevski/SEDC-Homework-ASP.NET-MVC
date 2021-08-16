@@ -13,5 +13,7 @@ namespace SEDC.PizzaApp.Models.ViewModels
         public PaymentMethod PaymentMethod { get; set; }
         public decimal Price { get; set; }
         public string UserAddress { get; set; }
+        public bool Delivered { get; set; }
+
     }
 }

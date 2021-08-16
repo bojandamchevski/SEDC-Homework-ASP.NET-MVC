@@ -12,5 +12,6 @@ namespace SEDC.PizzaApp.Models.ViewModels
         public string PizzaName { get; set; }
         public decimal Price { get; set; }
         public PizzaSize PizzaSize { get; set; }
+        public bool IsPromotion { get; set; }
     }
 }

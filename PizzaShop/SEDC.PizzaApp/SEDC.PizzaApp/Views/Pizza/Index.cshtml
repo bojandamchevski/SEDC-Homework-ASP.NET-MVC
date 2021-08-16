@@ -11,4 +11,8 @@
             <li>@Model[i].Price.ToString("c")</li>
         </ul>
     </ol>
+    <partial name="~/Views/Shared/Partials/_PizzaDetailsPartial.cshtml" for="@Model[i]" />
 }
+
+@*<partial name="~/Views/Shared/Partials/_PizzaDetailsPartial.cshtml" />*@
+<p>@ViewData["Date"]</p>

@@ -31,7 +31,7 @@ namespace SEDC.PizzaApp.Controllers
             List<Order> orders = StaticDb.Orders;
             if (id == null)
             {
-                return new EmptyResult();
+                return View("ResourceNotFound");
             }
             ViewBag.Message = "You are on the order details page";
             ViewData["Title"] = "Details list";
@@ -39,7 +39,7 @@ namespace SEDC.PizzaApp.Controllers
             Order orderDb = orders.FirstOrDefault(o => o.Id == id);
             if (orderDb == null)
             {
-                return new EmptyResult();
+                return View("ResourceNotFound");
             }
             OrderDetailsViewModel orderDetailsViewModel = OrderMapper.OrderToOrderDetailsViewModel(orderDb);
             return View(orderDetailsViewModel);
@@ -52,6 +52,23 @@ namespace SEDC.PizzaApp.Controllers
         public IActionResult RedirectToHome()
         {
             return RedirectToAction("Index", "Home");
+        }
+
+        public IActionResult Delete(int id)
+        {
+            List<Order> orders = StaticDb.Orders;
+            if (id == null)
+            {
+                return View("ResourceNotFound");
+            }
+            Order orderDb = orders.FirstOrDefault(o => o.Id == id);
+            if (orderDb == null)
+            {
+                return View("ResourceNotFound");
+            }
+            OrderDetailsViewModel orderDetailsViewModel = OrderMapper.OrderToOrderDetailsViewModel(orderDb);
+
+            return View(orderDetailsViewModel);
         }
     }
 

@@ -1,0 +1,25 @@
+﻿@*@if (ViewBag.OnePizza != null)
+{
+    <h3>Partial details view !!!</h3>
+    <p>@ViewBag.OnePizza.PizzaName</p>
+    <p>@ViewBag.OnePizza.Price</p>
+    <p>@ViewBag.OnePizza.PizzaSize</p>
+}
+else
+{
+    <h3>Partial index view !!!</h3>
+    @if (ViewBag.Pizzas.Count > 0)
+    {
+        foreach (PizzaViewModel pizza in ViewBag.Pizzas)
+        {
+            <p>@pizza.PizzaName</p>
+            <p>@pizza.Price</p>
+            <p>@pizza.PizzaSize</p>
+        }
+    }
+}*@
+
+@model PizzaViewModel
+
+<p>@Model.PizzaName</p>
+<p>@Model.Price</p>

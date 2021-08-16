@@ -18,6 +18,7 @@ namespace SEDC.PizzaApp.Controllers
             List<PizzaViewModel> pizzaViewModel = pizzas.Select(p => p.PizzaToPizzaViewModelWithExtensionMethod(p)).ToList();
             ViewData["Title"] = "Pizzas";
             ViewData["Date"] = DateTime.Now.ToShortDateString();
+            ViewBag.Pizzas = pizzaViewModel;
             return View(pizzaViewModel);
         }
         public IActionResult Details(int id)
@@ -36,7 +37,8 @@ namespace SEDC.PizzaApp.Controllers
             ViewBag.PizzaViewModel = pizzaViewModel;
             ViewData["Title"] = "Details";
             ViewData["Date"] = DateTime.Now.ToShortDateString();
-            return View();
+            ViewBag.OnePizza = pizzaViewModel;
+            return View(pizzaViewModel);
         }
         [Route("SeePizzas")]
         public IActionResult Redirect()

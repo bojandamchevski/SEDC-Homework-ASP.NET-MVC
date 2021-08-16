@@ -1,0 +1,15 @@
+﻿@model OrderDetailsViewModel
+
+@*<h2>Are yu sure that you want to delete the following order:</h2>
+<ul>
+    <li>Name: @Model.PizzaName</li>
+    <li>User: @($"Mr/Mrs: {Model.UserFullName}")</li>
+    <li>User: @Model.UserAddress</li>
+    <li>Price: @Model.Price.ToString("c")</li>
+    <li>Payment method: @Model.PaymentMethod</li>
+</ul>*@
+
+@*<partial name="~/Views/Shared/Partials/_OrderDetailsPartial.cshtml" for="@Model" />*@
+
+<button>Yes</button>
+<button>Cancel</button>

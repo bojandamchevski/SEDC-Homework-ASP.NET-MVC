@@ -16,7 +16,8 @@ namespace SEDC.PizzaApp.Models.Mappers
                 Id = pizza.Id,
                 PizzaName = pizza.Name,
                 PizzaSize = pizza.PizzaSize,
-                Price = pizza.HasExtras ? pizza.Price + 10 : pizza.Price
+                Price = pizza.HasExtras ? pizza.Price + 10 : pizza.Price,
+                IsPromotion = pizza.IsOnPromotion
             };
 
         }

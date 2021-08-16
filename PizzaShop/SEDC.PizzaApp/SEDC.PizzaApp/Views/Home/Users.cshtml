@@ -1,0 +1,8 @@
+﻿<h2>User details:</h2>
+
+@{
+    foreach (UserDetailsViewModel user in @ViewBag.Users)
+    {
+        <p>Full name: @user.UserFullName <small>Address: @user.UserAddress</small></p>
+    }
+}
