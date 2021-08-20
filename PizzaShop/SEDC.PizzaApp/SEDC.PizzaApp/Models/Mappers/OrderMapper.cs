@@ -26,8 +26,22 @@ namespace SEDC.PizzaApp.Models.Mappers
         {
             return new OrderListViewModel
             {
+                Id = order.Id,
                 PizzaName = order.Pizza.Name,
                 UserFullName = $"{order.User.FirstName} {order.User.LastName}"
+            };
+        }
+        public static Order ToOrder(OrderViewModel orderViewModel)
+        {
+            User userDb = StaticDb.Users.FirstOrDefault(u => u.Id == orderViewModel.UserId);
+            Pizza pizzaDb = StaticDb.Pizzas.FirstOrDefault(u => u.Name == orderViewModel.PizzaName);
+            return new Order
+            {
+                Delivered = orderViewModel.IsDelivered,
+                PaymentMethod = orderViewModel.PaymentMethod,
+                Id = orderViewModel.Id,
+                User = userDb,
+                Pizza = pizzaDb
             };
         }
     }

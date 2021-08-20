@@ -49,6 +49,47 @@ namespace SEDC.PizzaApp.Controllers
         {
             return new JsonResult(StaticDb.Pizzas);
         }
+        public IActionResult CreateOrder()
+        {
+            OrderViewModel orderViewModel = new OrderViewModel();
+            ViewBag.Users = StaticDb.Users.Select(u => UserSelectMapper.ToUserSelectViewModel(u)).ToList();
+            return View(orderViewModel);
+        }
+
+
+
+
+        [HttpPost]
+        public IActionResult CreateOrder(OrderViewModel orderViewModel)
+        {
+            orderViewModel.Id = StaticDb.Orders.Last().Id + 1;
+            User userDb = StaticDb.Users.FirstOrDefault(u => u.Id == orderViewModel.UserId);
+            if (userDb == null)
+            {
+                return View("ResourceNotFound");
+            }
+            Pizza pizzaDb = StaticDb.Pizzas.FirstOrDefault(u => u.Name == orderViewModel.PizzaName);
+            if (pizzaDb == null)
+            {
+                return View("ResourceNotFound");
+            }
+            StaticDb.Orders.Add(OrderMapper.ToOrder(orderViewModel));
+            return RedirectToAction("Index");
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         public IActionResult RedirectToHome()
         {
             return RedirectToAction("Index", "Home");

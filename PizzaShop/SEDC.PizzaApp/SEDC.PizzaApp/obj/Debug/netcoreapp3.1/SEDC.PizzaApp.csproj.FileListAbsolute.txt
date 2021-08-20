@@ -767,3 +767,4 @@ C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\PizzaShop\SEDC.PizzaApp\SEDC.Pizz
 C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\PizzaShop\SEDC.PizzaApp\SEDC.PizzaApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Partials\_OrderDetailsPartial.cshtml.g.cs
 C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\PizzaShop\SEDC.PizzaApp\SEDC.PizzaApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Users.cshtml.g.cs
 C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\PizzaShop\SEDC.PizzaApp\SEDC.PizzaApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Partials\_PizzaDetailsPartial.cshtml.g.cs
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\PizzaShop\SEDC.PizzaApp\SEDC.PizzaApp\obj\Debug\netcoreapp3.1\Razor\Views\Orders\CreateOrder.cshtml.g.cs

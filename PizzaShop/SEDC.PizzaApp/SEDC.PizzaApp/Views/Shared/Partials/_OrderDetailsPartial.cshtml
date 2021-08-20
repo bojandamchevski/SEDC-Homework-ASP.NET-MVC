@@ -1,5 +1,7 @@
 ﻿@model OrderDetailsViewModel
 
+<p><label asp-for="PizzaName"></label> : @Html.DisplayFor(x => x.PizzaName)</p>
+
 <ul>
     <li>Name: @Model.PizzaName</li>
     <li>User: @($"Mr/Mrs: {Model.UserFullName}")</li>

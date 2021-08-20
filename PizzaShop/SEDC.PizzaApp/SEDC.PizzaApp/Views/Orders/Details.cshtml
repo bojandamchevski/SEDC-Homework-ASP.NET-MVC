@@ -10,9 +10,6 @@
     <li>Payment method: @Model.PaymentMethod</li>
 </ul>
 
-<h4>@ViewBag.Message</h4>
-<h4>@ViewBag.User.FirstName</h4>
-
 @if (Model.Delivered)
 {
     <p>Delivered</p>
@@ -22,18 +19,12 @@ else
     <p>Not delivired</p>
 }
 
-@*@{
-        string messageDelivered = string.Empty;
-        if (Model.Delivered)
-        {
-            messageDelivered = "The order is delivired.";
-        }
-        else
-        {
-            messageDelivered = "The order is not delivered.";
-        }
-    }
+<partial name="~/Views/Shared/Partials/_OrderDetailsPartial.cshtml" for="@Model" />
 
-    <p>@messageDelivered</p>*@
-
-<partial name="~/Views/Shared/Partials/_OrderDetailsPartial.cshtml" for="@Model"/>
+<a asp-action="Index">Back to orders</a>
+<br />
+@Html.ActionLink("List all orders", "Index")
+<hr />
+<a asp-controller="Home" asp-action="Index">Back to home</a>
+<br />
+@Html.ActionLink("Home page", "Index", "Home")
