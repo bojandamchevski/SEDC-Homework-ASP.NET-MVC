@@ -1,0 +1,26 @@
+﻿@model PizzaDetailsViewModel
+
+<div class="text-center">
+    <h2 class="display-4">Pizza Details</h2>
+</div>
+<br />
+<br
+<div class="row">
+    <ul>
+        <li>@Model.Id</li>
+        <li>@Model.PizzaName</li>
+        @if (@Model.IsOnPromotion)
+        {
+            <li>Pizza is on promotion</li>
+        }
+        else
+        {
+            <li>Pizza is not on promotion</li>
+        }
+        <div class="card" style="width: 18rem; margin-left:15px;">
+            <img class="card-img-top" src="https://alternate-takes.com/wp-content/uploads/2021/05/s2.jpg" alt="Card image cap">
+            <div class="card-body">
+            </div>
+        </div>
+    </ul>
+</div>

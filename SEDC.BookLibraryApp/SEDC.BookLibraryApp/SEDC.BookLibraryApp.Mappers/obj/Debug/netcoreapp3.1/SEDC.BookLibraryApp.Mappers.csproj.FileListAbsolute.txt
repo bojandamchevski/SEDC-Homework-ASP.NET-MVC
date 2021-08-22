@@ -12,3 +12,17 @@ C:\Users\Com\Desktop\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp
 C:\Users\Com\Desktop\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\SEDC.BookLibraryApp.Mappers.csproj.CopyComplete
 C:\Users\Com\Desktop\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\SEDC.BookLibraryApp.Mappers.dll
 C:\Users\Com\Desktop\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\SEDC.BookLibraryApp.Mappers.pdb
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\bin\Debug\netcoreapp3.1\SEDC.BookLibraryApp.Mappers.deps.json
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\bin\Debug\netcoreapp3.1\SEDC.BookLibraryApp.Mappers.dll
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\bin\Debug\netcoreapp3.1\SEDC.BookLibraryApp.Mappers.pdb
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\bin\Debug\netcoreapp3.1\SEDC.BookLibraryApp.Domain.dll
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\bin\Debug\netcoreapp3.1\SEDC.BookLibraryApp.ViewModels.dll
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\bin\Debug\netcoreapp3.1\SEDC.BookLibraryApp.Domain.pdb
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\bin\Debug\netcoreapp3.1\SEDC.BookLibraryApp.ViewModels.pdb
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\SEDC.BookLibraryApp.Mappers.csproj.AssemblyReference.cache
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\SEDC.BookLibraryApp.Mappers.AssemblyInfoInputs.cache
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\SEDC.BookLibraryApp.Mappers.AssemblyInfo.cs
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\SEDC.BookLibraryApp.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\SEDC.BookLibraryApp.Mappers.csproj.CopyComplete
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\SEDC.BookLibraryApp.Mappers.dll
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.BookLibraryApp\SEDC.BookLibraryApp\SEDC.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\SEDC.BookLibraryApp.Mappers.pdb

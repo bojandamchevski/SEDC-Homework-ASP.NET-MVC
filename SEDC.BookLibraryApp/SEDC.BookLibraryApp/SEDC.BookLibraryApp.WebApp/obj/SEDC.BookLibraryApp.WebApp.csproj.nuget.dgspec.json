@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.WebApp\\SEDC.BookLibraryApp.WebApp.csproj": {}
+    "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.WebApp\\SEDC.BookLibraryApp.WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.DataAccess\\SEDC.BookLibraryApp.DataAccess.csproj": {
+    "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.DataAccess\\SEDC.BookLibraryApp.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.DataAccess\\SEDC.BookLibraryApp.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.DataAccess\\SEDC.BookLibraryApp.DataAccess.csproj",
         "projectName": "SEDC.BookLibraryApp.DataAccess",
-        "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.DataAccess\\SEDC.BookLibraryApp.DataAccess.csproj",
+        "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.DataAccess\\SEDC.BookLibraryApp.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Com\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj"
+              "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj": {
+    "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj",
         "projectName": "SEDC.BookLibraryApp.Domain",
-        "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj",
+        "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj",
         "packagesPath": "C:\\Users\\Com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Com\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -116,14 +116,14 @@
         }
       }
     },
-    "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Mappers\\SEDC.BookLibraryApp.Mappers.csproj": {
+    "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Mappers\\SEDC.BookLibraryApp.Mappers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Mappers\\SEDC.BookLibraryApp.Mappers.csproj",
+        "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Mappers\\SEDC.BookLibraryApp.Mappers.csproj",
         "projectName": "SEDC.BookLibraryApp.Mappers",
-        "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Mappers\\SEDC.BookLibraryApp.Mappers.csproj",
+        "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Mappers\\SEDC.BookLibraryApp.Mappers.csproj",
         "packagesPath": "C:\\Users\\Com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Mappers\\obj\\",
+        "outputPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Mappers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Com\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -140,11 +140,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj"
+              "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj"
               },
-              "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj": {
-                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj"
+              "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj"
               }
             }
           }
@@ -177,14 +177,14 @@
         }
       }
     },
-    "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Services\\SEDC.BookLibraryApp.Services.csproj": {
+    "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Services\\SEDC.BookLibraryApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Services\\SEDC.BookLibraryApp.Services.csproj",
+        "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Services\\SEDC.BookLibraryApp.Services.csproj",
         "projectName": "SEDC.BookLibraryApp.Services",
-        "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Services\\SEDC.BookLibraryApp.Services.csproj",
+        "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Services\\SEDC.BookLibraryApp.Services.csproj",
         "packagesPath": "C:\\Users\\Com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Services\\obj\\",
+        "outputPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Com\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -201,17 +201,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.DataAccess\\SEDC.BookLibraryApp.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.DataAccess\\SEDC.BookLibraryApp.DataAccess.csproj"
+              "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.DataAccess\\SEDC.BookLibraryApp.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.DataAccess\\SEDC.BookLibraryApp.DataAccess.csproj"
               },
-              "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj"
+              "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Domain\\SEDC.BookLibraryApp.Domain.csproj"
               },
-              "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Mappers\\SEDC.BookLibraryApp.Mappers.csproj": {
-                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Mappers\\SEDC.BookLibraryApp.Mappers.csproj"
+              "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Mappers\\SEDC.BookLibraryApp.Mappers.csproj": {
+                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Mappers\\SEDC.BookLibraryApp.Mappers.csproj"
               },
-              "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj": {
-                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj"
+              "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj"
               }
             }
           }
@@ -244,14 +244,14 @@
         }
       }
     },
-    "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj": {
+    "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj",
+        "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj",
         "projectName": "SEDC.BookLibraryApp.ViewModels",
-        "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj",
+        "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj",
         "packagesPath": "C:\\Users\\Com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\obj\\",
+        "outputPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Com\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -298,14 +298,14 @@
         }
       }
     },
-    "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.WebApp\\SEDC.BookLibraryApp.WebApp.csproj": {
+    "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.WebApp\\SEDC.BookLibraryApp.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.WebApp\\SEDC.BookLibraryApp.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.WebApp\\SEDC.BookLibraryApp.WebApp.csproj",
         "projectName": "SEDC.BookLibraryApp.WebApp",
-        "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.WebApp\\SEDC.BookLibraryApp.WebApp.csproj",
+        "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.WebApp\\SEDC.BookLibraryApp.WebApp.csproj",
         "packagesPath": "C:\\Users\\Com\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.WebApp\\obj\\",
+        "outputPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Com\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -322,11 +322,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Services\\SEDC.BookLibraryApp.Services.csproj": {
-                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Services\\SEDC.BookLibraryApp.Services.csproj"
+              "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Services\\SEDC.BookLibraryApp.Services.csproj": {
+                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.Services\\SEDC.BookLibraryApp.Services.csproj"
               },
-              "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj": {
-                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj"
+              "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.ViewModels\\SEDC.BookLibraryApp.ViewModels.csproj"
               }
             }
           }

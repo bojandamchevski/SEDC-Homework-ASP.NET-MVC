@@ -15,7 +15,7 @@ namespace SEDC.BookLibraryApp.Mappers.Mappers
             List<DateTime> reservations = new List<DateTime>();
             foreach (Book book in books)
             {
-                booksAndAuthors.Add($"{book.Title}", $"{book.Author.FirstName} {book.Author.LastName}");
+                booksAndAuthors.Add(book.Title, "Author");
             };
             foreach (Reservation date in res)
             {

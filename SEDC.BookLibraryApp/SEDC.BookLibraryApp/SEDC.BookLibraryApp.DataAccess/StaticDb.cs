@@ -8,6 +8,76 @@ namespace SEDC.BookLibraryApp.DataAccess
     {
         static StaticDb()
         {
+            BooksDb = new List<Book>
+        {
+            new Book
+            {
+                Id = 1,
+                Title = "Murder on the Orient Express"
+
+            },
+            new Book
+            {
+                Id = 2,
+                Title = "Death on the Nile"
+
+            },
+            new Book
+            {
+                Id = 3,
+                Title = "Da Vinci Code"
+
+            },
+            new Book
+            {
+                Id = 4,
+                Title = "Inferno"
+
+            }
+        };
+            AuthorsDb = new List<Author>
+        {
+            new Author
+            {
+                Id = 1,
+                FirstName = "Agatha",
+                LastName = "Christie",
+                AuthorBooks =
+                {
+                    BooksDb[0],
+                    BooksDb[1]
+                }
+            },
+            new Author
+            {
+                Id = 2,
+                FirstName = "Dan",
+                LastName = "Brown",
+                AuthorBooks =
+                {
+                    BooksDb[2],
+                    BooksDb[3]
+                }
+            }
+        };
+            ReservationsDb = new List<Reservation>
+        {
+            new Reservation
+            {
+                Id = 1,
+                ReservationTime = DateTime.Now.AddMonths(1)
+            },
+            new Reservation
+            {
+                Id = 2,
+                ReservationTime = DateTime.Now.AddMonths(2)
+            },
+            new Reservation
+            {
+                Id = 3,
+                ReservationTime = DateTime.Now.AddMonths(3)
+            }
+        };
             MembersDb = new List<Member>
         {
             new Member
@@ -59,76 +129,9 @@ namespace SEDC.BookLibraryApp.DataAccess
                 }
             }
         };
-            AuthorsDb = new List<Author>
-        {
-            new Author
-            {
-                Id = 1,
-                FirstName = "Agatha",
-                LastName = "Christie",
-                AuthorBooks =
-                {
-                    BooksDb[0],
-                    BooksDb[1]
-                }
-            },
-            new Author
-            {
-                Id = 2,
-                FirstName = "Dan",
-                LastName = "Brown",
-                AuthorBooks =
-                {
-                    BooksDb[2],
-                    BooksDb[3]
-                }
-            }
-        };
-            BooksDb = new List<Book>
-        {
-            new Book
-            {
-                Id = 1,
-                Title = "Murder on the Orient Express",
-                Author = AuthorsDb[0]
-            },
-            new Book
-            {
-                Id = 2,
-                Title = "Death on the Nile",
-                Author = AuthorsDb[0]
-            },
-            new Book
-            {
-                Id = 3,
-                Title = "Da Vinci Code",
-                Author = AuthorsDb[1]
-            },
-            new Book
-            {
-                Id = 4,
-                Title = "Inferno",
-                Author = AuthorsDb[1]
-            }
-        };
-            ReservationsDb = new List<Reservation>
-        {
-            new Reservation
-            {
-                Id = 1,
-                ReservationTime = DateTime.Now.AddMonths(1)
-            },
-            new Reservation
-            {
-                Id = 2,
-                ReservationTime = DateTime.Now.AddMonths(2)
-            },
-            new Reservation
-            {
-                Id = 3,
-                ReservationTime = DateTime.Now.AddMonths(3)
-            }
-        };
+
+
+
         }
 
         public static List<Member> MembersDb { get; set; }

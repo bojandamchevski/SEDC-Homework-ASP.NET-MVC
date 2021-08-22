@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zECzZleqAnRJxHXhZ/vSyvr3kizE0J0WCzJjNq9RS97w4wrq9VC+VIQ/7vQVfCCDhoP1gHvRwWSi/G5/rtfqtQ==",
+  "dgSpecHash": "7hZo7wE1ObNEic3YHh43LbVyUA+fROOQvQwZJNkboGn7KkgpYYlo7cfUAb7DXitEWDnfi26j6VsrPyF0yNQYAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Com\\Desktop\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.DataAccess\\SEDC.BookLibraryApp.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp\\SEDC.BookLibraryApp.DataAccess\\SEDC.BookLibraryApp.DataAccess.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
