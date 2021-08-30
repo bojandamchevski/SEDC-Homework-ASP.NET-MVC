@@ -1,0 +1,21 @@
+﻿@model List<MemberListViewModel>
+
+<h3>Members:</h3>
+<br />
+<br />
+<br />
+<div class="row">
+    @foreach (MemberListViewModel member in Model)
+    {
+        <div class="card border-success mb-3" style="max-width: 18rem; margin-left: 10px; ">
+            <div class="card-body text-success">
+                <h5 class="card-title">@member.MemberFullName</h5>
+                <h5 class="card-title">Number of books: @member.NumberOfBooks</h5>
+                <button type="button" class="btn btn-success"><a asp-action="Details" asp-route-id="@member.Id">View member details</a></button>
+            </div>
+        </div>
+    }
+</div>
+<button type="button" class="btn btn-warning"><a asp-action="Create">Create a new member</a></button>
+
+

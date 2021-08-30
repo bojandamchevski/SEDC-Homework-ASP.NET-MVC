@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BojanDamchevski.BookLibraryApp.DataAccess\BojanDamchevski.BookLibraryApp.DataAccess.csproj" />
+    <ProjectReference Include="..\BojanDamchevski.BookLibraryApp.Mappers\BojanDamchevski.BookLibraryApp.Mappers.csproj" />
+    <ProjectReference Include="..\BojanDamchevski.BookLibraryApp.ViewModels\BojanDamchevski.BookLibraryApp.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

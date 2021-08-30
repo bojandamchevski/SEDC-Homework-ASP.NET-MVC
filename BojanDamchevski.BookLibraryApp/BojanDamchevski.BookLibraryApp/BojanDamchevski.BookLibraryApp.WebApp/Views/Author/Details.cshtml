@@ -1,0 +1,19 @@
+﻿@model AuthorDetailsViewModel
+
+<div class="card" style="width: 20rem;">
+    <img class="card-img-top" src="https://img.favpng.com/8/22/24/writer-computer-icons-author-png-favpng-Uet8VxAxxpbKpKvheDHy5B4FS.jpg" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">@Model.FirstName @Model.LastName</h5>
+        <ul class="list-group list-group-flush">
+            @foreach (string book in Model.Books)
+            {
+                <li class="list-group-item"><i>@book</i></li>
+            }
+        </ul>
+    </div>
+    <div class="card-body">
+        <a class="card-link" asp-action="Edit" asp-route-id="@Model.Id">Edit author</a>
+        <br />
+        <a class="card-link" asp-action="Delete" asp-route-id="@Model.Id">Delete author</a>
+    </div>
+</div>

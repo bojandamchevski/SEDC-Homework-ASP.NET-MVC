@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BojanDamchevski.BookLibraryApp.Services/1.0.0": {
+        "dependencies": {
+          "BojanDamchevski.BookLibraryApp.DataAccess": "1.0.0",
+          "BojanDamchevski.BookLibraryApp.Mappers": "1.0.0",
+          "BojanDamchevski.BookLibraryApp.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "BojanDamchevski.BookLibraryApp.Services.dll": {}
+        }
+      },
+      "BojanDamchevski.BookLibraryApp.DataAccess/1.0.0": {
+        "dependencies": {
+          "BojanDamchevski.BookLibraryApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BojanDamchevski.BookLibraryApp.DataAccess.dll": {}
+        }
+      },
+      "BojanDamchevski.BookLibraryApp.Domain/1.0.0": {
+        "runtime": {
+          "BojanDamchevski.BookLibraryApp.Domain.dll": {}
+        }
+      },
+      "BojanDamchevski.BookLibraryApp.Mappers/1.0.0": {
+        "dependencies": {
+          "BojanDamchevski.BookLibraryApp.Domain": "1.0.0",
+          "BojanDamchevski.BookLibraryApp.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "BojanDamchevski.BookLibraryApp.Mappers.dll": {}
+        }
+      },
+      "BojanDamchevski.BookLibraryApp.ViewModels/1.0.0": {
+        "dependencies": {
+          "BojanDamchevski.BookLibraryApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BojanDamchevski.BookLibraryApp.ViewModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BojanDamchevski.BookLibraryApp.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BojanDamchevski.BookLibraryApp.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BojanDamchevski.BookLibraryApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BojanDamchevski.BookLibraryApp.Mappers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BojanDamchevski.BookLibraryApp.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

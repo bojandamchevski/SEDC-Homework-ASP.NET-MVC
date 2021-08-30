@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dOQ1Y2JDqQFlhaGAHNyAAzn7230Lk9ScDHC/BkdPhyijZvbs2Jl9LVVuwmWnqrBHGtN8Tsm8Kose9nSRb4xRmw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Com\\Desktop\\BojanDamchevski.BookLibraryApp\\BojanDamchevski.BookLibraryApp\\BojanDamchevski.BookLibraryApp.Helpers\\BojanDamchevski.BookLibraryApp.Helpers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Com\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

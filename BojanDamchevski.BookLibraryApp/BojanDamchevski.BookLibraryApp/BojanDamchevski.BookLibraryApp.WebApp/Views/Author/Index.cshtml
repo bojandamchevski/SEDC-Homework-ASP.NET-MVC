@@ -1,0 +1,19 @@
+﻿@model List<AuthorDDViewModel>
+
+<h3>Authors:</h3>
+<br />
+<br />
+<br />
+<div class="row">
+    @foreach (AuthorDDViewModel author in Model)
+    {
+        <div class="card border-success mb-3" style="max-width: 18rem; margin-left: 10px;">
+            <div class="card-body text-success">
+                <h5 class="card-title">@author.AuthorFullName</h5>
+                <button type="button" class="btn btn-success"><a asp-action="Details" asp-route-id="@author.Id">View author details</a></button>
+            </div>
+        </div>
+    }
+</div>
+<button type="button" class="btn btn-warning"><a asp-action="Create">Create a new author</a></button>
+

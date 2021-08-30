@@ -1,0 +1,14 @@
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Mappers\bin\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Mappers.deps.json
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Mappers\bin\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Mappers.dll
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Mappers\bin\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Mappers.pdb
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Mappers\bin\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Domain.dll
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Mappers\bin\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.ViewModels.dll
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Mappers\bin\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Domain.pdb
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Mappers\bin\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.ViewModels.pdb
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Mappers.csproj.AssemblyReference.cache
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Mappers.AssemblyInfoInputs.cache
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Mappers.AssemblyInfo.cs
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Mappers.csproj.CoreCompileInputs.cache
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Mappers.csproj.CopyComplete
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Mappers.dll
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Mappers\obj\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Mappers.pdb

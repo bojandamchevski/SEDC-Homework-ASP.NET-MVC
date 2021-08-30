@@ -1,0 +1,9 @@
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Domain\bin\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Domain.deps.json
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Domain\bin\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Domain.dll
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Domain\bin\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Domain.pdb
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Domain\obj\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Domain.csproj.AssemblyReference.cache
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Domain\obj\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Domain\obj\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Domain.AssemblyInfo.cs
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Domain\obj\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Domain\obj\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Domain.dll
+C:\Users\Com\Desktop\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp\BojanDamchevski.BookLibraryApp.Domain\obj\Debug\netcoreapp3.1\BojanDamchevski.BookLibraryApp.Domain.pdb

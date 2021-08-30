@@ -1,0 +1,23 @@
+﻿@model MemberDetailsViewModel
+
+<div class="card" style="width: 20rem;">
+    <img class="card-img-top" src="https://www.kindpng.com/picc/m/78-785827_user-profile-avatar-login-account-male-user-icon.png" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">@Model.FirstName @Model.LastName</h5>
+        <ul class="list-group list-group-flush">
+            @foreach (string item in Model.BooksAndReservations)
+            {
+                <li class="list-group-item">@item</li>
+            }
+        </ul>
+    </div>
+    <div class="card-body">
+        <a class="card-link" asp-action="AddBookAndReservation" asp-route-id="@Model.Id">Reserve a book</a>
+        <br />
+        <a class="card-link" asp-action="Edit" asp-route-id="@Model.Id">Edit member</a>
+        <br />
+        <a class="card-link" asp-action="Delete" asp-route-id="@Model.Id">Delete member</a>
+        <br />
+        <a class="card-link" asp-action="DeleteBookAndReservation" asp-route-id="@Model.Id">Delete a reservation</a>
+    </div>
+</div>

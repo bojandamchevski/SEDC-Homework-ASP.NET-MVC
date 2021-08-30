@@ -1,0 +1,18 @@
+﻿@model MemberDetailsViewModel
+
+<h3>Delete a book reservation</h3>
+<br />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="DeleteBookAndReservation" method="post">
+            <div class="form-group">
+                <input type="hidden" asp-for="Id" />
+                <label asp-for="DeleteReservationId" class="control-label"></label>
+                <select asp-for="DeleteReservationId" asp-items="@(new SelectList(ViewBag.BookReservations, "Id", "Reservation"))"></select>
+            </div>
+            <button type="submit" class="btn btn-danger" value="Delete">Delete</button>
+        </form>
+    </div>
+</div>
+<br />
+<button type="submit" class="btn btn-warning"><a asp-action="Index">Cancel</a></button>

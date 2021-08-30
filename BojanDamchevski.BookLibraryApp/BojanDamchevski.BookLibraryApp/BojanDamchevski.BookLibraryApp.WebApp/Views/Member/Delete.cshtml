@@ -1,0 +1,12 @@
+﻿@model AddMemberViewModel
+
+<h3>Are you sure you want to delete this member ?</h3>
+<br />
+<p>Member: @Model.NewFirstName @Model.NewLastName</p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="NewId" />
+    <button type="submit" class="btn btn-danger" value="Delete">Delete</button>
+</form>
+<br />
+<button type="button" class="btn btn-warning"><a asp-action="Index">Cancel</a></button>
