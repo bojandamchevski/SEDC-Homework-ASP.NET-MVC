@@ -26,7 +26,8 @@ namespace SEDC.PizzaApp.Mappers
                 PaymentMethod = order.PaymentMethod,
                 Location = order.Location,
                 UserFullName = $"{order.User.FirstName} {order.User.LastName}",
-                PizzaNames = order.PizzaOrders.Select(x => x.Pizza.Name).ToList()
+                PizzaNames = order.PizzaOrders.Select(x => x.Pizza.Name).ToList(),
+                Id = order.Id
             };
         }
 
@@ -39,6 +40,18 @@ namespace SEDC.PizzaApp.Mappers
                 PaymentMethod = orderViewModel.PaymentMethod,
                 PizzaOrders = new List<PizzaOrder>(),
                 UserId = orderViewModel.UserId
+            };
+        }
+
+        public static OrderViewModel ToOrderViewModel(this Order order)
+        {
+            return new OrderViewModel
+            {
+                Id = order.Id,
+                Delivered = order.Delivered,
+                Location = order.Location,
+                PaymentMethod = order.PaymentMethod,
+                UserId = order.UserId
             };
         }
     }

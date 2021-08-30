@@ -1,26 +1,29 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SEDC.PizzaApp.Refactored.Models;
-using System;
-using System.Collections.Generic;
+using SEDC.PizzaApp.Services.Interfaces;
+using SEDC.PizzaApp.ViewModels.HomeViewModels;
 using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace SEDC.PizzaApp.Refactored.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private IPizzaService _pizzaService;
+        private IOrderService _orderService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IPizzaService pizzaService, IOrderService orderService)
         {
-            _logger = logger;
+            _pizzaService = pizzaService;
+            _orderService = orderService;
         }
 
         public IActionResult Index()
         {
-            return View();
+            HomeIndexViewModel homeIndexViewModel = new HomeIndexViewModel();
+            homeIndexViewModel.PizzaOnPromotion = _pizzaService.GetPizzaOnPromotion();
+            homeIndexViewModel.OrderCount = _orderService.GetAllOrders().Count;
+            return View(homeIndexViewModel);
         }
 
         public IActionResult Privacy()

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gGrCWE9wwwakaGGRM7cEKjTXv8WLko0SIzzGg1S/w92m5aOTPOsW/0o0Am4Uc1GlIZ3WFEy4YQWrcx9lzPfxag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.Helpers\\SEDC.PizzaApp.Helpers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Com\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

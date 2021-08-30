@@ -1,0 +1,12 @@
+﻿@model List<FeedbackListViewModel>
+
+<h3>Feedbacks:</h3>
+<ol>
+    @foreach (var item in Model)
+    {
+        <li>@item.Name</li>
+        <a asp-action="Details" asp-route-id="@item.Id">Feedback details</a>
+    }
+</ol>
+
+<a asp-action="SendFeedback">Send a feedback</a>

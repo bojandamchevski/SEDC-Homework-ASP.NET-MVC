@@ -1,0 +1,18 @@
+﻿@model OrderViewModel
+
+@*<h3>Delete pizza from order</h3>
+<br />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="DeletePizzaFromOrder" method="post">
+            <div class="form-group">
+                <input type="hidden" asp-for="Id" />
+                <label asp-for="" class="control-label"></label>
+                <select asp-for="DeleteReservationId" asp-items="@(new SelectList(ViewBag.Pizzas, "Id", "Name"))"></select>
+            </div>
+            <button type="submit" class="btn btn-danger" value="Delete">Delete</button>
+        </form>
+    </div>
+</div>
+<br />
+<button type="submit" class="btn btn-warning"><a asp-action="Index">Cancel</a></button>*@

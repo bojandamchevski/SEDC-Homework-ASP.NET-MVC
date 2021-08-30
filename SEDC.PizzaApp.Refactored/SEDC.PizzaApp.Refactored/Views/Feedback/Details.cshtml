@@ -1,0 +1,8 @@
+﻿@model FeedbackDetailsViewModel
+
+<h5>Feedback @Model.Name</h5>
+<p>From: @Model.Email</p>
+<p>Feedback: @Model.Message</p>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit feedback</a>
+<a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-warning">Delete feedback</a>

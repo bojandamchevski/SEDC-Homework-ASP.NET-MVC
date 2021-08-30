@@ -40,5 +40,9 @@ namespace SEDC.PizzaApp.DataAccess.Implementations
             int index = StaticDb.Orders.IndexOf(orderDb);
             StaticDb.Orders[index] = entity;
         }
+        //public PizzaOrder GetPizzaOrder(int id)
+        //{
+        //    return StaticDb.Orders.
+        //}
     }
 }

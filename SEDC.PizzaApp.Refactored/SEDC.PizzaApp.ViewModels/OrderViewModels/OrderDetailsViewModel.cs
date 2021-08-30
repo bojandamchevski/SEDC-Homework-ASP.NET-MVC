@@ -6,6 +6,7 @@ namespace SEDC.PizzaApp.ViewModels.OrderViewModels
 {
     public class OrderDetailsViewModel
     {
+        public int Id { get; set; }
         [Display(Name = "Payment Method")]
         public PaymentMethodEnum PaymentMethod { get; set; }
         [Display(Name = "Is Delivered")]

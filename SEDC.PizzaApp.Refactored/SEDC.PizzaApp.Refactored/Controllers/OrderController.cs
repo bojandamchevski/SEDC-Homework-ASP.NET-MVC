@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SEDC.PizzaApp.Services.Interfaces;
+using SEDC.PizzaApp.Shared.CustomExceptions;
 using SEDC.PizzaApp.ViewModels.OrderViewModels;
 using System;
 using System.Collections.Generic;
@@ -10,11 +11,13 @@ namespace SEDC.PizzaApp.Refactored.Controllers
     {
         private IOrderService _orderService;
         private IUserService _userService;
-        public OrderController(IOrderService orderService, IUserService userService) //DependencyInjectionHelper -> map
+        private IPizzaService _pizzaService;
+        public OrderController(IOrderService orderService, IUserService userService, IPizzaService pizzaService) //DependencyInjectionHelper -> map
         {
             //_orderService = new OrderService();
             _orderService = orderService;
             _userService = userService;
+            _pizzaService = pizzaService;
         }
         public IActionResult Index()
         {
@@ -24,7 +27,7 @@ namespace SEDC.PizzaApp.Refactored.Controllers
 
         public IActionResult Details(int? id)
         {
-            if(id == null)
+            if (id == null)
             {
                 return View("BadRequest");
             }
@@ -33,7 +36,7 @@ namespace SEDC.PizzaApp.Refactored.Controllers
                 OrderDetailsViewModel orderDetailsViewModel = _orderService.GetOrderDetails(id.Value);
                 return View(orderDetailsViewModel);
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 //log
                 return View("ExceptionPage");
@@ -56,10 +59,121 @@ namespace SEDC.PizzaApp.Refactored.Controllers
                 _orderService.CreateOrder(orderViewModel);
                 return RedirectToAction("Index");
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 return View("ExceptionPage");
             }
         }
+
+        public IActionResult AddPizza(int id)
+        {
+            PizzaOrderViewModel pizzaOrderViewModel = new PizzaOrderViewModel();
+            pizzaOrderViewModel.OrderId = id;
+            ViewBag.Pizzas = _pizzaService.GetPizzasForDropdown();
+            return View(pizzaOrderViewModel);
+        }
+
+        [HttpPost]
+        public IActionResult AddPizza(PizzaOrderViewModel pizzaOrderViewModel)
+        {
+            try
+            {
+                _orderService.AddPizzaToOrder(pizzaOrderViewModel);
+                return RedirectToAction("Details", new { id = pizzaOrderViewModel.OrderId });
+            }
+            catch (Exception e)
+            {
+                return View("ExceptionPage");
+            }
+
+        }
+
+        public IActionResult Edit(int? id)
+        {
+            if (id == null)
+            {
+                return View("BadRequest");
+            }
+            try
+            {
+                OrderViewModel model = _orderService.GetOrderForEditing(id.Value);
+                ViewBag.Users = _userService.GetUsersForDropdown();
+                return View(model);
+            }
+            catch (ResourceNotFoundException e)
+            {
+                return View("ResourceNotFound");
+            }
+            catch (Exception e)
+            {
+                return View("ExceptionPage");
+            }
+
+        }
+
+        [HttpPost]
+        public IActionResult Edit(OrderViewModel orderViewModel)
+        {
+            try
+            {
+                _orderService.EditOrder(orderViewModel);
+                return RedirectToAction("Index");
+            }
+            catch (ResourceNotFoundException e)
+            {
+                return View("ResourceNotFound");
+            }
+            catch (Exception e)
+            {
+                return View("ExceptionPage");
+            }
+        }
+
+        public IActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return View("BadRequest");
+            }
+            try
+            {
+                OrderDetailsViewModel orderDetailsViewModel = _orderService.GetOrderDetails(id.Value);
+                return View(orderDetailsViewModel);
+            }
+            catch (Exception e)
+            {
+                return View("ExceptionPage");
+            }
+        }
+
+        [HttpPost]
+        public IActionResult Delete(OrderDetailsViewModel orderDetailsViewModel)
+        {
+            try
+            {
+                _orderService.DeleteOrder(orderDetailsViewModel.Id);
+                return RedirectToAction("Index");
+            }
+            catch (ResourceNotFoundException e)
+            {
+                return View("ResourceNotFound");
+            }
+            catch (Exception e)
+            {
+                return View("ExceptionPage");
+            }
+        }
+        //public IActionResult DeletePizzaFromOrder(int id)
+        //{
+        //    PizzaOrderViewModel pizzaOrderViewModel = 
+        //    ViewBag.Pizzas = _orderService.GetPizzasFromOrder(id);
+        //    return View(pizzaOrderViewModel);
+        //}
+        //[HttpPost]
+        //public IActionResult DeletePizzaFromOrder(PizzaOrderViewModel pizzaOrderViewModel)
+        //{
+        //    //_orderService.DeletePizza(orderViewModel);
+        //    return RedirectToAction("Index");
+        //}
     }
 }

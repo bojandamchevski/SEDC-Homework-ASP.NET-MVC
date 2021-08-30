@@ -4,16 +4,16 @@ using System.Collections.Generic;
 
 namespace SEDC.PizzaApp.DataAccess
 {
-     public static class StaticDb
+    public static class StaticDb
+    {
+        static StaticDb()
         {
-            static StaticDb()
-            {
-                PizzaId = 3;
-                OrderId = 2;
-                UserId = 2;
-                PizzaOrderId = 3;
+            PizzaId = 3;
+            OrderId = 2;
+            UserId = 2;
+            PizzaOrderId = 3;
 
-                Pizzas = new List<Pizza>
+            Pizzas = new List<Pizza>
             {
                 new Pizza
                 {
@@ -46,7 +46,7 @@ namespace SEDC.PizzaApp.DataAccess
                     }
                 },
             };
-                Users = new List<User>
+            Users = new List<User>
             {
                 new User
                 {
@@ -63,13 +63,10 @@ namespace SEDC.PizzaApp.DataAccess
                     FirstName = "Aleksandar",
                     LastName = "Manasiev",
                     Address = "Address2",
-                    Orders = new List<Order>
-                    {
-
-                    }
+                    Orders = new List<Order>{}
                 }
             };
-                Orders = new List<Order>
+            Orders = new List<Order>
             {
                 new Order
                 {
@@ -95,7 +92,8 @@ namespace SEDC.PizzaApp.DataAccess
                             OrderId = 1
                         }
                     },
-                    User = Users[0]
+                    User = Users[0],
+                    UserId = Users[0].Id
                 },
                 new Order
                 {
@@ -114,19 +112,36 @@ namespace SEDC.PizzaApp.DataAccess
                             OrderId  = 2
                         }
                     },
-                    User = Users [1]
+                    User = Users [1],
+                    UserId = Users[1].Id
                 }
             };
-
-            }
-            public static int PizzaId { get; set; }
-            public static int OrderId { get; set; }
-            public static int UserId { get; set; }
-            public static int PizzaOrderId { get; set; }
-
-            public static List<Pizza> Pizzas { get; set; }
-
-            public static List<Order> Orders { get; set; }
-            public static List<User> Users { get; set; }
+            Feedbacks = new List<Feedback>
+            {
+                new Feedback
+                {
+                    Id = 1,
+                    Email = "jovana@yahoo.com",
+                    Name = "Pizza review",
+                    Message = "The pizza was great."
+                },
+                new Feedback
+                {
+                    Id = 2,
+                    Email = "stefan@yahoo.com",
+                    Name = "Pizza review",
+                    Message = "The pizza was not great, not terrible."
+                }
+            };
         }
+        public static int PizzaId { get; set; }
+        public static int OrderId { get; set; }
+        public static int UserId { get; set; }
+        public static int PizzaOrderId { get; set; }
+        public static List<Feedback> Feedbacks { get; set; }
+        public static List<Pizza> Pizzas { get; set; }
+
+        public static List<Order> Orders { get; set; }
+        public static List<User> Users { get; set; }
     }
+}

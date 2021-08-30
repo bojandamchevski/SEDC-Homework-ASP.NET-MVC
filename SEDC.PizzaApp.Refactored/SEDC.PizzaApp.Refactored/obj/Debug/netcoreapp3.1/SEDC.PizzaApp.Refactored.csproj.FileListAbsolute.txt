@@ -328,6 +328,7 @@ C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\bin\Debug
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\bin\Debug\netcoreapp3.1\SEDC.PizzaApp.Helpers.dll
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\bin\Debug\netcoreapp3.1\SEDC.PizzaApp.Mappers.dll
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\bin\Debug\netcoreapp3.1\SEDC.PizzaApp.Services.dll
+C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\bin\Debug\netcoreapp3.1\SEDC.PizzaApp.Shared.dll
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\bin\Debug\netcoreapp3.1\SEDC.PizzaApp.ViewModels.dll
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\bin\Debug\netcoreapp3.1\SEDC.PizzaApp.Helpers.pdb
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\bin\Debug\netcoreapp3.1\SEDC.PizzaApp.Services.pdb
@@ -335,6 +336,7 @@ C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\bin\Debug
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\bin\Debug\netcoreapp3.1\SEDC.PizzaApp.DataAccess.pdb
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\bin\Debug\netcoreapp3.1\SEDC.PizzaApp.Domain.pdb
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\bin\Debug\netcoreapp3.1\SEDC.PizzaApp.Mappers.pdb
+C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\bin\Debug\netcoreapp3.1\SEDC.PizzaApp.Shared.pdb
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.Refactored.csproj.AssemblyReference.cache
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.Refactored.AssemblyInfoInputs.cache
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.Refactored.AssemblyInfo.cs
@@ -351,13 +353,16 @@ C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.Refactored.RazorCoreGenerate.cache
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Order\AddPizza.cshtml.g.cs
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Order\Create.cshtml.g.cs
+C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Order\Delete.cshtml.g.cs
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Order\Details.cshtml.g.cs
+C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Order\Edit.cshtml.g.cs
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Order\Index.cshtml.g.cs
-C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Pizza\Index.cshtml.g.cs
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Shared\BadRequest.cshtml.g.cs
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ExceptionPage.cshtml.g.cs
+C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ResourceNotFound.cshtml.g.cs
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
@@ -369,5 +374,9 @@ C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.Refactored.dll
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.Refactored.pdb
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.Refactored.genruntimeconfig.cache
-C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Pizza\Details.cshtml.g.cs
-C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Pizza\Create.cshtml.g.cs
+C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\Details.cshtml.g.cs
+C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\Index.cshtml.g.cs
+C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\SendFeedback.cshtml.g.cs
+C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\Edit.cshtml.g.cs
+C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Feedback\Delete.cshtml.g.cs
+C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\obj\Debug\netcoreapp3.1\Razor\Views\Order\DeletePizzaFromOrder.cshtml.g.cs

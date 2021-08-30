@@ -1,20 +1,23 @@
 ﻿using SEDC.PizzaApp.DataAccess.Interfaces;
 using SEDC.PizzaApp.Domain.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace SEDC.PizzaApp.DataAccess.Implementations
 {
-    public class PizzaRepository : IRepository<Pizza>
+    //public class PizzaRepository : IRepository<Pizza>
+    public class PizzaRepository : IPizzaRepository
     {
-        public PizzaRepository()
-        {
 
-        }
         public void DeleteById(int id)
         {
-            Pizza pizzaDb = StaticDb.Pizzas.FirstOrDefault(x => x.Id == id);
-            StaticDb.Pizzas.Remove(pizzaDb);
+            Pizza pizza = StaticDb.Pizzas.FirstOrDefault(x => x.Id == id);
+            if (pizza == null)
+            {
+                throw new Exception($"Pizza with id {id} was not found");
+            }
+            StaticDb.Pizzas.Remove(pizza);
         }
 
         public List<Pizza> GetAll()
@@ -27,17 +30,32 @@ namespace SEDC.PizzaApp.DataAccess.Implementations
             return StaticDb.Pizzas.FirstOrDefault(x => x.Id == id);
         }
 
+        public Pizza GetPizzaOnPromotion()
+        {
+            List<Pizza> pizzasOnPromotion = StaticDb.Pizzas.Where(p => p.IsOnPromotion).Select(p => p).ToList();
+            if (pizzasOnPromotion.Count > 1)
+            {
+                throw new Exception("Only one pizza can be on promotion");
+            }
+            return StaticDb.Pizzas.FirstOrDefault(x => x.IsOnPromotion);
+
+        }
+
         public int Insert(Pizza entity)
         {
-            entity.Id = StaticDb.Pizzas.Last().Id + 1;
+            entity.Id = ++StaticDb.PizzaId;
             StaticDb.Pizzas.Add(entity);
             return entity.Id;
         }
 
         public void Update(Pizza entity)
         {
-            Pizza pizzaDb = StaticDb.Pizzas.FirstOrDefault(x => x.Id == entity.Id);
-            int index = StaticDb.Pizzas.IndexOf(pizzaDb);
+            Pizza pizza = StaticDb.Pizzas.FirstOrDefault(x => x.Id == entity.Id);
+            if (pizza == null)
+            {
+                throw new Exception($"Pizza with id {entity.Id} was not found");
+            }
+            int index = StaticDb.Pizzas.IndexOf(pizza);
             StaticDb.Pizzas[index] = entity;
         }
     }

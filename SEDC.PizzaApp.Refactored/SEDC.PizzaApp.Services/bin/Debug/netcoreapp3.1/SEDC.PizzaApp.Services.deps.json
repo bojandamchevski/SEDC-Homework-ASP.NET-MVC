@@ -11,6 +11,7 @@
           "SEDC.PizzaApp.DataAccess": "1.0.0",
           "SEDC.PizzaApp.Domain": "1.0.0",
           "SEDC.PizzaApp.Mappers": "1.0.0",
+          "SEDC.PizzaApp.Shared": "1.0.0",
           "SEDC.PizzaApp.ViewModels": "1.0.0"
         },
         "runtime": {
@@ -37,6 +38,11 @@
         },
         "runtime": {
           "SEDC.PizzaApp.Mappers.dll": {}
+        }
+      },
+      "SEDC.PizzaApp.Shared/1.0.0": {
+        "runtime": {
+          "SEDC.PizzaApp.Shared.dll": {}
         }
       },
       "SEDC.PizzaApp.ViewModels/1.0.0": {
@@ -66,6 +72,11 @@
       "sha512": ""
     },
     "SEDC.PizzaApp.Mappers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SEDC.PizzaApp.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

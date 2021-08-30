@@ -35,20 +35,27 @@ using SEDC.PizzaApp.ViewModels.OrderViewModels;
 #nullable disable
 #nullable restore
 #line 4 "C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\Views\_ViewImports.cshtml"
-using SEDC.PizzaApp.Domain.Enums;
+using SEDC.PizzaApp.ViewModels.HomeViewModels;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 5 "C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\Views\_ViewImports.cshtml"
-using SEDC.PizzaApp.ViewModels.PizzaViewModels;
+using SEDC.PizzaApp.Domain.Enums;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 6 "C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.Refactored\Views\_ViewImports.cshtml"
+using SEDC.PizzaApp.ViewModels.FeedbackViewModels;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9ec1557d28a858256e8c47543f2cfb9ee7439122", @"/Views/Shared/BadRequest.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1e2bb32dc05221f07f8a362897566d087e5054c3", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a6f72e898db95bb87b46cd631ba0f7bb22da86b3", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared_BadRequest : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

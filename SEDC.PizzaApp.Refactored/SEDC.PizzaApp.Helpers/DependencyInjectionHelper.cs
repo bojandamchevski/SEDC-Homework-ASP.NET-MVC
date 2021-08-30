@@ -14,13 +14,15 @@ namespace SEDC.PizzaApp.Helpers
             services.AddTransient<IOrderService, OrderService>();
             services.AddTransient<IUserService, UserService>();
             services.AddTransient<IPizzaService, PizzaService>();
+            services.AddTransient<IFeedbackService, FeedbackService>();
         }
 
         public static void InjectRepositories(IServiceCollection services)
         {
             services.AddTransient<IRepository<Order>, OrderRepository>();
             services.AddTransient<IRepository<User>, UserRepository>();
-            services.AddTransient<IRepository<Pizza>, PizzaRepository>();
+            services.AddTransient<IRepository<Feedback>, FeedbackRepository>();
+            services.AddTransient<IPizzaRepository, PizzaRepository>();
         }
     }
 }
