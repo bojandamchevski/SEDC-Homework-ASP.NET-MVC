@@ -155,11 +155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.Helpers\\SEDC.PizzaApp.Helpers.csproj",
+      "projectUniqueName": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.Helpers\\SEDC.PizzaApp.Helpers.csproj",
       "projectName": "SEDC.PizzaApp.Helpers",
-      "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.Helpers\\SEDC.PizzaApp.Helpers.csproj",
+      "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.Helpers\\SEDC.PizzaApp.Helpers.csproj",
       "packagesPath": "C:\\Users\\Com\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Com\\Desktop\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.Helpers\\obj\\",
+      "outputPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.Helpers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Com\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -176,11 +176,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Com\\Desktop\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.DataAccess\\SEDC.PizzaApp.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.DataAccess\\SEDC.PizzaApp.DataAccess.csproj"
+            "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.DataAccess\\SEDC.PizzaApp.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.DataAccess\\SEDC.PizzaApp.DataAccess.csproj"
             },
-            "C:\\Users\\Com\\Desktop\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.Services\\SEDC.PizzaApp.Services.csproj": {
-              "projectPath": "C:\\Users\\Com\\Desktop\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.Services\\SEDC.PizzaApp.Services.csproj"
+            "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.Services\\SEDC.PizzaApp.Services.csproj": {
+              "projectPath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.Services\\SEDC.PizzaApp.Services.csproj"
             }
           }
         }

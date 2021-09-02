@@ -163,17 +163,19 @@ namespace SEDC.PizzaApp.Refactored.Controllers
                 return View("ExceptionPage");
             }
         }
-        //public IActionResult DeletePizzaFromOrder(int id)
-        //{
-        //    PizzaOrderViewModel pizzaOrderViewModel = 
-        //    ViewBag.Pizzas = _orderService.GetPizzasFromOrder(id);
-        //    return View(pizzaOrderViewModel);
-        //}
-        //[HttpPost]
-        //public IActionResult DeletePizzaFromOrder(PizzaOrderViewModel pizzaOrderViewModel)
-        //{
-        //    //_orderService.DeletePizza(orderViewModel);
-        //    return RedirectToAction("Index");
-        //}
+        public IActionResult RemovePizza(int id)
+        {
+            RemovePizzaModel removePizzaModel = new RemovePizzaModel();
+            removePizzaModel.OrderId = id;
+            ViewBag.Pizzas = _orderService.GetPizzasForRemoveDropdown(id);
+            return View(removePizzaModel);
+        }
+        [HttpPost]
+        public IActionResult RemovePizza(RemovePizzaModel removePizzaModel)
+        {
+            _orderService.RemovePizzaFromOrder(removePizzaModel);
+            return RedirectToAction("Index");
+        }
+
     }
 }

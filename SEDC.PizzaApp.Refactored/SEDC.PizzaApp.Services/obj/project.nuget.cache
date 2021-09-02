@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K0uoj31qL212wKIkWNn/UCWN0M9OFJW+GHQcdJ6USWeFBVWYktwnHwXt3k2486VQZlhcXAW2DQZDJnpw/13WOg==",
+  "dgSpecHash": "zEsYQ8xcGWs8zZ1PCfAuJCsqyCNsbQZv7aq1RGs58l2kpi301ysYwk1kfqU+piYqR09wWGVOfgY3Rjzbps/B6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Com\\Desktop\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.Services\\SEDC.PizzaApp.Services.csproj",
+  "projectFilePath": "C:\\Users\\Com\\Desktop\\SEDC-Homework-ASP.NET-MVC\\SEDC.PizzaApp.Refactored\\SEDC.PizzaApp.Services\\SEDC.PizzaApp.Services.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -13,6 +13,7 @@ namespace SEDC.PizzaApp.Services.Interfaces
         OrderViewModel GetOrderForEditing(int id);
         void EditOrder(OrderViewModel orderViewModel);
         void DeleteOrder(int id);
-        List<PizzaDDViewModel> GetPizzasFromOrder(int id);
+        List<PizzaDDViewModel> GetPizzasForRemoveDropdown(int orderId);
+        void RemovePizzaFromOrder(RemovePizzaModel removePizzaModel);
     }
 }
