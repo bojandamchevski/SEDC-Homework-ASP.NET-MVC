@@ -10,3 +10,15 @@ C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.ViewModels\obj\Debug
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.ViewModels\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.ViewModels.csproj.CopyComplete
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.ViewModels\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.ViewModels.dll
 C:\Users\Com\Desktop\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.ViewModels\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.ViewModels.pdb
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.ViewModels\bin\Debug\netcoreapp3.1\SEDC.PizzaApp.ViewModels.deps.json
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.ViewModels\bin\Debug\netcoreapp3.1\SEDC.PizzaApp.ViewModels.dll
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.ViewModels\bin\Debug\netcoreapp3.1\SEDC.PizzaApp.ViewModels.pdb
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.ViewModels\bin\Debug\netcoreapp3.1\SEDC.PizzaApp.Domain.dll
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.ViewModels\bin\Debug\netcoreapp3.1\SEDC.PizzaApp.Domain.pdb
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.ViewModels\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.ViewModels.csproj.AssemblyReference.cache
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.ViewModels\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.ViewModels.AssemblyInfoInputs.cache
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.ViewModels\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.ViewModels.AssemblyInfo.cs
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.ViewModels\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.ViewModels\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.ViewModels.csproj.CopyComplete
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.ViewModels\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.ViewModels.dll
+C:\Users\Com\Desktop\SEDC-Homework-ASP.NET-MVC\SEDC.PizzaApp.Refactored\SEDC.PizzaApp.ViewModels\obj\Debug\netcoreapp3.1\SEDC.PizzaApp.ViewModels.pdb

@@ -35,6 +35,7 @@ namespace SEDC.PizzaApp.Refactored
 
             DependencyInjectionHelper.InjectRepositories(services);
             DependencyInjectionHelper.InjectServices(services);
+            DependencyInjectionHelper.InjectDbContext(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
